@@ -50,7 +50,7 @@ them occur simultaneously — which is the normal case in post-earthquake imager
 ## Screenshot
 
 <div align="center">
-<img src="docs/assets/screenshot_main.png" width="880" alt="PECCD-Detect main window">
+<img width="1918" height="1026" alt="image" src="https://github.com/user-attachments/assets/ba49b670-571a-4bb0-bd34-72055c691dda" />
 </div>
 
 ---
