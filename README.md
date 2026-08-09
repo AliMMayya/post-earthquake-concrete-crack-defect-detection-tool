@@ -2,7 +2,7 @@
 
 <img src="docs/assets/pecdd_icon.png" width="120" alt="PECCD-Detect">
 
-# PECCD-Detect
+# post-earthquake concrete crack defects (PECCD)-Detect
 
 **Automated multi-class detection of post-earthquake concrete defects**
 
