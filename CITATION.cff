@@ -1,0 +1,76 @@
+cff-version: 1.2.0
+message: "If you use this software, the dataset or the trained model, please cite the article below."
+title: "PECCD-Detect: a desktop application for automated multi-class detection of post-earthquake concrete defects"
+type: software
+version: "1.0.0"
+license: AGPL-3.0-or-later
+repository-code: "https://github.com/<your-account>/PECCD-Detect"
+abstract: >-
+  Standalone graphical application running the YOLOV12SDSDA detector trained on the
+  Post-Earthquake Concrete Crack Dataset (PECCD). It localises and classifies six
+  concrete deterioration mechanisms - scaling, spalling, multi-branched cracks, simple
+  cracks, deep cracks and holes - in field photographs, and exports annotated images and
+  quantitative damage reports.
+keywords:
+  - post-earthquake damage assessment
+  - concrete defect detection
+  - object detection
+  - YOLO
+  - structural health monitoring
+  - quantitative nondestructive evaluation
+authors:
+  - family-names: Mayya
+    given-names: Ali Mahmoud
+    affiliation: "University of Applied Sciences and Arts of Southern Switzerland (SUPSI)"
+    email: ali.mayya@supsi.ch
+  - family-names: Alkayem
+    given-names: Nizar Faisal
+    affiliation: "Nanjing University of Posts and Telecommunications; Hohai University"
+  - family-names: Saii
+    given-names: Mariam
+    affiliation: "University of Applied Sciences and Arts of Southern Switzerland (SUPSI)"
+  - family-names: Ahmad
+    given-names: Maha Haydar
+    affiliation: "University of Applied Sciences and Arts of Southern Switzerland (SUPSI)"
+  - family-names: Bayat
+    given-names: Mahmoud
+    affiliation: "The University of Texas at Arlington"
+  - family-names: Asteris
+    given-names: Panagiotis G.
+    affiliation: "School of Pedagogical and Technological Education, Athens"
+  - family-names: Cao
+    given-names: Maosen
+    affiliation: "Hohai University"
+preferred-citation:
+  type: article
+  title: "Multitype concrete defect detection using the new post-earthquake concrete crack dataset and extended YOLO approach"
+  year: 2026
+  journal: "Nondestructive testing and evaluation"
+  doi: "TO BE COMPLETED"
+  authors:
+    - family-names: Mayya
+      given-names: Ali Mahmoud
+    - family-names: Alkayem
+      given-names: Nizar Faisal
+    - family-names: Saii
+      given-names: Mariam
+    - family-names: Ahmad
+      given-names: Maha Haydar
+    - family-names: Bayat
+      given-names: Mahmoud
+    - family-names: Asteris
+      given-names: Panagiotis G.
+    - family-names: Cao
+      given-names: Maosen
+references:
+  - type: data
+    title: "Post-Earthquake Concrete Crack Dataset (PECCD)"
+    doi: "10.17632/w7549ryvx2.1"
+    year: 2025
+    publisher:
+      name: "Mendeley Data"
+    authors:
+      - family-names: Mayya
+        given-names: Ali Mahmoud
+      - family-names: Alkayem
+        given-names: Nizar Faisal

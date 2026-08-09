@@ -1,0 +1,40 @@
+# Build artefacts
+build/pyinstaller/
+dist/
+*.spec.bak
+.buildenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Model weights are published as release assets, not committed
+*.pt
+*.onnx
+*.engine
+!models/README.md
+
+# Ultralytics runtime files
+runs/
+*.yaml.bak
+settings.json
+
+# Outputs produced by the application
+*_detected.png
+*_PECCD_detected.png
+PECCD_batch_report.csv
+PECCD_session_report.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp

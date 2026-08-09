@@ -1,0 +1,14 @@
+# PECCD-Detect - Post-Earthquake Concrete Defect Detection GUI
+# ------------------------------------------------------------
+# Install with:   pip install -r requirements.txt
+#
+# NOTE: on Debian/Ubuntu, Tkinter is not installed by pip. Run:
+#           sudo apt-get install python3-tk
+#       Windows and macOS official Python builds already include it.
+
+ultralytics>=8.3.0
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=9.0.0
+numpy>=1.23.0
+opencv-python>=4.7.0
