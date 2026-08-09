@@ -11,7 +11,7 @@ Search the repository for these and replace them:
 
 | Placeholder | Appears in | Replace with |
 |---|---|---|
-| `<AliMayya>` | `README.md`, `CITATION.cff` | Your GitHub username or organisation |
+| `<AliMMayya>` | `README.md`, `CITATION.cff` | Your GitHub username or organisation |
 | `Nondestructive testing and evaluation` | `README.md`, `CITATION.cff` | Journal name, volume, DOI, once accepted |
 | *see paper* | `README.md` results table | The mAP50-95 value of YOLOV12SDSDA |
 
