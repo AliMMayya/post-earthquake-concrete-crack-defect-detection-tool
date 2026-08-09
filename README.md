@@ -172,15 +172,6 @@ Stated openly, because they determine what the tool can responsibly be used for:
   reported surface percentage is an extent proxy, not a measurement.
 * **Bounding-box geometry.** Axis-aligned rectangles overestimate the damaged area of
   thin, diagonally oriented cracks.
-* **Resolution / latency trade-off.** Inference at 640 px suppresses part of the
-  evidence for hairline cracks in large photographs; raising the inference size
-  recovers it at a computational cost.
-* **Not a safety verdict.** Results are not mapped to ATC-20 or EMS-98 damage grades.
-  Interpretation remains the responsibility of a qualified engineer, and a negative
-  result is not evidence of a sound structure.
-* **Residual confusion** between the simple-crack and deep-crack categories, and
-  greater threshold sensitivity for the under-represented hole category.
-
 ---
 
 ## Documentation
