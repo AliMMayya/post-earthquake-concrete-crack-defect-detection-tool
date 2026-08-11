@@ -67,7 +67,8 @@ You do **not** need Python, a notebook environment or an internet connection.
 3. Double-click **`PECCD-Detect.exe`**.
 4. In the application: *Browse .pt* → select the downloaded weights → *Load model*.
 5. *Select image(s)…* or *Select folder (batch)…*, then press **RUN DETECTION**.
-
+    Note: make sure that the image name doesn't contain non-English numbers to avoid flipping bounding boxes.
+   
 A complete walkthrough with screenshots is in **[docs/USER_GUIDE.md](docs/USER_GUIDE.md)**.
 
 > **Windows SmartScreen** may warn that the publisher is unknown, because the executable
