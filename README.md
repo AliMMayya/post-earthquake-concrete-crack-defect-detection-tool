@@ -5,8 +5,8 @@
 # post-earthquake concrete crack defects (PECCD)-Detect
 
 **Automated multi-class detection of post-earthquake concrete defects**
-* **Authors**: **Ali Mayya, Nizar Alkayem **
-* 
+**Authors**: **Ali Mayya, Nizar Alkayem**
+ 
 Companion software for the paper
 *Multitype concrete defect detection using the new post-earthquake concrete crack dataset and extended YOLO approach*
 
