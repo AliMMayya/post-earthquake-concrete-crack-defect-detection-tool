@@ -21,11 +21,11 @@ Companion software for the paper
 
 ## Overview
 
-After an earthquake, thousands of photographs of damaged concrete surfaces have to be
-reviewed before a structure can be declared usable, restricted or unsafe. PECCD-Detect
-automates the first stage of that review. It takes a field photograph and returns the
-location and the category of every visible defect, together with a quantitative summary
-that can be exported for further assessment.
+After an earthquake, thousands of photos of damaged concrete surfaces have to be
+reviewed before a structure can be defined as usable, restricted or unsafe. Our 
+proposed tools PECCD-Detect automates the first stage of that review. It takes 
+a concrete general image and returns the location and the category of every visible defect, 
+together with a quantitative summary that can be exported for further assessment.
 
 The tool runs the **YOLOV12SDSDA** detector — a YOLOV12S backbone extended with a
 depthwise-separable dual-attention (DS-DA) module — trained on the **Post-Earthquake
@@ -44,8 +44,8 @@ Six deterioration mechanisms are localised and classified:
 | 🟨 | **Hole** | Through-opening or cavity |
 
 Unlike the binary crack / no-crack tools that dominate the literature, PECCD-Detect
-distinguishes between deterioration mechanisms and handles scenes in which several of
-them occur simultaneously — which is the normal case in post-earthquake imagery.
+distinguishes between damage mechanisms and handles scenes in which several of
+concrete damages occur simultaneously (w and this is the normal case in post-earthquake imagery).
 
 ---
 
@@ -67,7 +67,7 @@ You do **not** need Python, a notebook environment or an internet connection.
 2. Extract the ZIP anywhere (Desktop is fine). No installation is performed and nothing
    is written to the registry.
 3. Double-click **`PECCD-Detect.exe`**.
-4. In the application: *Browse .pt* → select the downloaded weights → *Load model*.
+4. In the application: *Browse .pt* --> select the downloaded weights --> *Load model*.
 5. *Select image(s)…* or *Select folder (batch)…*, then press **RUN DETECTION**.
     Note: make sure that the image name doesn't contain non-English numbers to avoid flipping bounding boxes.
    
@@ -133,9 +133,9 @@ python src/PECCD_Detector_GUI.py --weights models/bestV12CrackClass.pt
 | Annotation tool | LabelImg, YOLO format |
 | Inter-annotator agreement | mean IoU 0.918, class agreement 0.920 |
 
-No imaging constraints were imposed during collection. The dataset deliberately retains
+No imaging constraints were imposed during collection. The dataset deliberately includes
 background clutter, crack-like objects (cables, pipes, reinforcement bars, wall
-writing), strong illumination variation and multiple defect categories within a single
+writing),  illumination variation and multiple defect categories within a single
 scene.
 
 **Download:** [https://doi.org/10.17632/w7549ryvx2.1](https://doi.org/10.17632/w7549ryvx2.1)
