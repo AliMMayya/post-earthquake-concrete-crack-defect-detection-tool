@@ -7,6 +7,7 @@
 **Automated multi-class detection of post-earthquake concrete defects**
 
 **Authors**: **Ali Mayya, Nizar Alkayem**
+**DOI Paper**: **https://doi.org/10.1080/10589759.2026.2731268**
  
 Companion software for the paper
 *Multitype concrete defect detection using the new post-earthquake concrete crack dataset and extended YOLO approach*
