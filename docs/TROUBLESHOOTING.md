@@ -1,8 +1,5 @@
 # Troubleshooting
 
-Errors are grouped by who is likely to hit them: users of the packaged executable first,
-then people running from source.
-
 ---
 
 ## Using the executable
