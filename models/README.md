@@ -1,6 +1,6 @@
 # Model weights
 
-Trained weights are **not committed to this repository**. Git stores binary files poorly:
+Trained weights are **not committed to this repository**. 
 every revision of a checkpoint is kept in full, so a repository that tracks weights grows
 without bound and becomes slow to clone. Weights are published as **release assets**
 instead.
