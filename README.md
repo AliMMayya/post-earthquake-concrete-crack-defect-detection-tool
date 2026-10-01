@@ -192,7 +192,7 @@ Stated openly, because they determine what the tool can responsibly be used for:
 
 If you use this software, the dataset or the model, you have to cite the following two sources:
 
-[1] Mayya, Ali Mahmoud; Alkayem, Nizar Faisal; Saii, Mariam; Ahmad, Maha Haydar; Bayat, Mahmoud; Asteris, Panagiotis G.; Cao, Maosen (2026), “Multiple concrete defect detection using the new post-earthqucke concrete crack dataset and extended YOLO approach”, Nondestructive Testing and Evaluation, 41(9).
+[1] Mayya, A. M., Alkayem, N. F., Saii, M., Haydar Ahmad, M., Bayat, M., Asteris, P. G., & Cao, M. (2026). Multitype concrete defect detection using the new post-earthquake concrete crack dataset and extended YOLO approach. Nondestructive Testing and Evaluation, 1–50. https://doi.org/10.1080/10589759.2026.2731268
 
 [2] Mayya, Ali Mahmoud; Alkayem, Nizar Faisal; Saii, Mariam; Ahmad, Maha Haydar; Bayat, Mahmoud; Asteris, Panagiotis G.; Cao, Maosen (2025), “Post-earthquake concrete crack dataset (PECCD)”, Mendeley Data, V1, doi: 10.17632/w7549ryvx2.1
 
